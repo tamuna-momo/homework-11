@@ -30,17 +30,23 @@
     list-style: none;
 }
 .nav-bar-li a {
-font-size: 16px;
-color: #FFFFFF;
-padding-left: 42px;
-text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-left: 42px;
+    text-decoration: none;
 }
 .li-last-item {
-background-color: #FFFFFF;
-border-radius: 28px;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    color:black;
+    text-decoration: none;
+    
 }
 .main-project{
     margin-top: -10px;
+    max-width: 1195px;
+    width:100%;
+
 }
 section{
     max-width: 1195px;
@@ -52,4 +58,82 @@ section{
 }
 .text {
     font-size: 16px;
+}
+button {
+    background-color: #0020F4;
+    border-radius: 28px;
+    display: block;
+    margin: auto;
+    margin-top: 58px;
+}
+.send-button {
+    color: white;
+    text-decoration: none;
+}
+.footer-container {
+    box-sizing: border-box;
+    max-width: 1920px;
+    width: 100%;
+}
+footer {
+    padding-top:275px ;
+    margin-top: 180px;
+    background-color: #0A22F4;
+    display:flex;
+    
+}
+.footer-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    'contact mail';
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+}
+.phone-number-mail {
+    padding-top: 60px;
+    color:white;
+}
+.span-image {
+    background-color: white;
+    border-radius: 50%;
+}
+.contact-map {
+    grid-area: contact;
+}
+.input-field {
+    grid-area: mail;
+}
+.contact-text {
+    max-width: 463px;
+    width:100%
+}
+.text-area{
+    display: flex;
+    box-sizing: border-box;
+    width:463px ;
+    height: 140px;
+}
+.author-info{
+    display: inline-block;
+    
+}
+
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    border: none;
+    outline: none;
+    border-bottom: 1px white ;
+}
+.author-info {
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-around;
 }
