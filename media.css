@@ -1,0 +1,40 @@
+@media (max-width:1024px) {
+    .nav-bar {
+        display: none;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .image-on-resp {
+        display:none;
+    }
+    .image-flex{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .hide-in-resp {
+        display:none;
+    }
+    button {
+        max-width: 168px;
+        width:100%;
+
+    }
+    .contact-map {
+        display: none;
+    
+    }
+    .footer-main{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+}  
