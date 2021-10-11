@@ -120,6 +120,10 @@ footer {
     display: inline-block;
     
 }
+.input-field{
+    max-width: 463px;
+    width: 100%;
+}
 
 
 .input-field {
